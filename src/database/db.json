@@ -1,0 +1,128 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "email": "teste@email.com",
+      "password": "123456"
+    }
+  ],
+  "informacoes": [
+    {
+      "id": 1,
+      "foto": "https://github.com/matheusmirandalacerda.png",
+      "nome": "Matheus Lacerda",
+      "cargo": "TESTE",
+      "resumo": "teste"
+    }
+  ],
+  "experiencias": [
+    {
+      "id": 2,
+      "titulo": "Rodobens Caminhões (Caruaru-PE)",
+      "descricao": "Cargo: Auxiliar Administrativo",
+      "tipo": "profissional",
+      "anoInicio": "2011",
+      "anoFim": "2012"
+    },
+    {
+      "id": 3,
+      "titulo": "Capital Cap (Brasília-DF)",
+      "descricao": "Cargo: Auxiliar Administrativo",
+      "tipo": "profissional",
+      "anoInicio": "2012",
+      "anoFim": "2014"
+    },
+    {
+      "id": 4,
+      "titulo": "Trimania (Itajaí-SC)",
+      "descricao": "Cargo: Assistente Administrativo Operacional",
+      "tipo": "profissional",
+      "anoInicio": "2014",
+      "anoFim": "2017"
+    },
+    {
+      "id": 5,
+      "titulo": "Unimed Caruaru (Caruaru-PE)",
+      "descricao": "Cargo: Assistente Operacional / Setor: Contas de Intercâmbio",
+      "tipo": "profissional",
+      "anoInicio": "2017",
+      "anoFim": "2020"
+    },
+    {
+      "id": 6,
+      "titulo": "Unimed Caruaru",
+      "descricao": "Cargo: Técnico Administrativo / Setor: Núcleo de Cooperados",
+      "tipo": "profissional",
+      "anoInicio": "2020",
+      "anoFim": "2021"
+    },
+    {
+      "id": 7,
+      "titulo": "Unimed Caruaru",
+      "descricao": "Cargo: Técnico Financeiro / Setor: Faturamento",
+      "tipo": "profissional",
+      "anoInicio": "2021",
+      "anoFim": "2023"
+    },
+    {
+      "id": 8,
+      "titulo": "Unimed Caruaru",
+      "descricao": "Cargo: Técnico Financeiro / Setor: Produção Médica",
+      "tipo": "profissional",
+      "anoInicio": "2023",
+      "anoFim": "2023"
+    },
+    {
+      "id": 9,
+      "titulo": "Auxiliar Administrativo",
+      "descricao": "Instituição: SENAC",
+      "tipo": "academico",
+      "anoInicio": "2012",
+      "anoFim": "2012"
+    },
+    {
+      "id": 10,
+      "titulo": "Logística",
+      "descricao": "Instituição: UNINTER",
+      "tipo": "academico",
+      "anoInicio": "2013",
+      "anoFim": "2015"
+    },
+    {
+      "id": 11,
+      "titulo": "Gestão Financeira",
+      "descricao": "Instituição: Unicesumar ",
+      "tipo": "academico",
+      "anoInicio": "2018",
+      "anoFim": "2020"
+    },
+    {
+      "id": 12,
+      "titulo": "Pós-Graduação em Administração Financeira",
+      "descricao": "Instituição: Unicesumar",
+      "tipo": "academico",
+      "anoInicio": "2019",
+      "anoFim": "2021"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": 1,
+      "link": "https://matheusmirandalacerda.github.io/nlw-esports-explorer/",
+      "image": "https://picsum.photos/300/200?random=1",
+      "title": "teste 1"
+    },
+    {
+      "id": 2,
+      "link": "https://academy.comeialabs.com.br/",
+      "image": "https://picsum.photos/300/200?random=2",
+      "title": "teste 2"
+    },
+    {
+      "id": 3,
+      "link": "https://academy.comeialabs.com.br/",
+      "image": "https://picsum.photos/300/200?random=2",
+      "title": "teste 3"
+    }
+  ]
+}
