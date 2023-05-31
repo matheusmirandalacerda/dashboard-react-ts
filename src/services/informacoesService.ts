@@ -10,11 +10,16 @@ export interface Informacoes {
 }
 
 export async function updateInformacoes(informacoes:Informacoes): Promise<Informacoes> {
-    const response = await api.put<Informacoes>('app/informacoes/1', informacoes);
+    const response = await api.post<Informacoes>('/informacoes/1', informacoes);
     return response.data;
 }
 
 export async function getInformacoes(): Promise<Informacoes> {
-    const response = await api.get<Informacoes>('app/informacoes/1');
+    const response = await api.get<Informacoes>('/informacoes/1');
+    return response.data;
+}
+
+export const deleteInformacoes = async (id: number) => {
+    const response = await api.delete (`/informacoes/1`);
     return response.data;
 }
