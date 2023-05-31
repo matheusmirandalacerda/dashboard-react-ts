@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./ListaPortfolio.module.css";
-import { Portfolio, getPortfolios, deletePortfolio } from "../../../services/experienciaPortfolio";
+import { Portfolio, getPortfolios, deletePortfolio } from "../../../services/portfolioService";
 
 
 const ListaPortfolio: React.FC = () => {
@@ -11,19 +11,19 @@ const ListaPortfolio: React.FC = () => {
         id:1,
         link: 'https://academy.comeialabs.com.br/',
         image:'https://picsum.photos/300/200?random=1',
-        title: 'Portfólio 1',
+        titulo: 'Portfólio 1',
     },
     {
         id:2,
         link: 'https://academy.comeialabs.com.br/',
         image:'https://picsum.photos/300/200?random=2',
-        title: 'Portfólio 2',
+        titulo: 'Portfólio 2',
     },
     {
         id:3,
         link: 'https://academy.comeialabs.com.br/',
         image:'https://picsum.photos/300/200?random=3',
-        title: 'Portfólio 3',
+        titulo: 'Portfólio 3',
     }*/]);
 
     const fetchPortfolios = async () => {
@@ -67,8 +67,8 @@ const ListaPortfolio: React.FC = () => {
             <tbody>
                 {portfolios.map((portfolio, index) => (
                     <tr key={index}>
-                    <td>{portfolio.title}</td>
-                    <td><img src={portfolio.image} alt={portfolio.title} className={styles.image} /></td>
+                    <td>{portfolio.titulo}</td>
+                    <td><img src={portfolio.image} alt={portfolio.titulo} className={styles.image} /></td>
                     <td><a href={portfolio.link} target="_blank" rel="noreferrer">{portfolio.link}</a></td>
                     <td>
                             <button onClick={() => handleEdite(portfolio)}>Editar</button>
@@ -92,7 +92,7 @@ import styles from "./ListaPortfolio.module.css";
 interface Portfolio {
     link: string;
     image: string;
-    title: string;
+    titulo: string;
 };
 
 
@@ -102,17 +102,17 @@ const ListaPortfolio: React.FC = () => {
         {
             link: 'https://academy.comeialabs.com.br/',
             image:'https://picsum.photos/300/200?random=1',
-            title: 'Portfólio 1',
+            titulo: 'Portfólio 1',
         },
         {
             link: 'https://academy.comeialabs.com.br/',
             image:'https://picsum.photos/300/200?random=2',
-            title: 'Portfólio 2',
+            titulo: 'Portfólio 2',
         },
         {
             link: 'https://academy.comeialabs.com.br/',
             image:'https://picsum.photos/300/200?random=3',
-            title: 'Portfólio 3',
+            titulo: 'Portfólio 3',
         }
     ]); 
 
@@ -138,8 +138,8 @@ const ListaPortfolio: React.FC = () => {
             <tbody>
                 {portfolio.map((itemPortfolio, index) => (
                 <tr key={index}>
-                    <td>{itemPortfolio.title}</td>
-                    <td><img src={itemPortfolio.image} alt={itemPortfolio.title} className={styles.image} /></td>
+                    <td>{itemPortfolio.titulo}</td>
+                    <td><img src={itemPortfolio.image} alt={itemPortfolio.titulo} className={styles.image} /></td>
                     <td><a href={itemPortfolio.link} target="_blank" rel="noreferrer">{itemPortfolio.link}</a></td>
                     <td>
                     <button onClick={() => handleEdit(index)}>Editar</button>

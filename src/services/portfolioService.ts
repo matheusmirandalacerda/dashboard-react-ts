@@ -4,7 +4,7 @@ export interface Portfolio {
     id: number;
     link: string;
     image: string;
-    title: string;
+    titulo: string;
 }
 
 export const createPortfolio = async (portfolio: Portfolio) => {

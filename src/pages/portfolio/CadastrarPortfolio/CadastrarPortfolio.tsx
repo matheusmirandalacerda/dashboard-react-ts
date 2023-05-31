@@ -6,7 +6,7 @@ import styles from "./CadastrarPortfolio.module.css";
 import Input from "../../../components/forms/Input/Input";
 
 
-import { Portfolio, createOrUpdatePortfolio } from "../../../services/experienciaPortfolio";
+import { Portfolio, createOrUpdatePortfolio } from "../../../services/portfolioService";
 
 const CadastrarPortfolio: React.FC = () => {
   const navigate = useNavigate();
@@ -17,13 +17,13 @@ const CadastrarPortfolio: React.FC = () => {
     id: 0,
     link: "",
     image: "",
-    title: ""
+    titulo: ""
   };
 
   const validationSchema = Yup.object().shape({
     link: Yup.string().required("Campo obrigatório"),
     image: Yup.string().required("Campo obrigatório"),
-    title: Yup.string().required("Campo obrigatório"),
+    titulo: Yup.string().required("Campo obrigatório"),
   });
 
   const onSubmit = async (
@@ -51,7 +51,7 @@ const CadastrarPortfolio: React.FC = () => {
       >
         {({ errors, touched }) => (
           <Form className={styles.form}>
-            <h2 className={styles.title}>Cadastro de Portfolio</h2>
+            <h2 className={styles.titulo}>Cadastro de Portfolio</h2>
 
             <Input
               label="Link"
@@ -67,9 +67,9 @@ const CadastrarPortfolio: React.FC = () => {
             />
             <Input
               label="Título"
-              name="title"
-              errors={errors.title}
-              touched={touched.title}
+              name="titulo"
+              errors={errors.titulo}
+              touched={touched.titulo}
             />
 
             <button type="submit" className={styles.button}>Enviar</button>
@@ -94,19 +94,19 @@ import Input from "../../../components/forms/Input/Input";
 interface FormValues {
   link: string;
   image: string;
-  title: string;
+  titulo: string;
 }
 
 const initialValues: FormValues = {
   link: "",
   image: "",
-  title: "",
+  titulo: "",
 };
 
 const validationSchema = Yup.object().shape({
   link: Yup.string().required("Campo obrigatório"),
   image: Yup.string().required("Campo obrigatório"),
-  title: Yup.string().required("Campo obrigatório"),
+  titulo: Yup.string().required("Campo obrigatório"),
 });
 
 const CadastrarPortfolio = () => {
@@ -129,7 +129,7 @@ const CadastrarPortfolio = () => {
       >
         {({ errors, touched }) => (
           <Form className={styles.form}>
-            <h2 className={styles.title}>Cadastro de Portfolio</h2>
+            <h2 className={styles.titulo}>Cadastro de Portfolio</h2>
 
             <Input
               label="Link"
@@ -145,9 +145,9 @@ const CadastrarPortfolio = () => {
             />
             <Input
               label="Título"
-              name="title"
-              errors={errors.title}
-              touched={touched.title}
+              name="titulo"
+              errors={errors.titulo}
+              touched={touched.titulo}
             />
 
             <button type="submit" className={styles.button}>Enviar</button>
