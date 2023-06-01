@@ -55,8 +55,8 @@ const ListaExperiencia: React.FC = () => {
                         <td>{experiencia.titulo}</td>
                         <td>{experiencia.descricao}</td>
                         <td>{experiencia.tipo}</td>
-                        <td>{experiencia.anoInicio}</td>
-                        <td>{experiencia.anoFim}</td>
+                        <td>{experiencia.anoinicio}</td>
+                        <td>{experiencia.anofim}</td>
                         <td>
                             <button onClick={() => handleEdite(experiencia)}>Editar</button>
                             <button onClick={() => handleDelete(experiencia.id)}>Excluir</button>

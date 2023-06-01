@@ -19,16 +19,16 @@ const CadastrarExperiencia: React.FC = () => {
     titulo: "",
     descricao: "",
     tipo: "",
-    anoInicio: "",
-    anoFim: "",
+    anoinicio: "",
+    anofim: "",
   };
 
   const validationSchema = Yup.object().shape({
     titulo: Yup.string().required("Campo obrigatório"),
     descricao: Yup.string(),
     tipo: Yup.string().required("Campo obrigatório"),
-    anoInicio: Yup.number().required("Campo obrigatório").typeError("Um número é obrigatório"),
-    anoFim: Yup.number().required("Campo obrigatório").typeError("Um número é obrigatório"),
+    anoinicio: Yup.number().required("Campo obrigatório").typeError("Um número é obrigatório"),
+    anofim: Yup.number().required("Campo obrigatório").typeError("Um número é obrigatório"),
   });
 
   const onSubmit = async (
@@ -66,15 +66,15 @@ const CadastrarExperiencia: React.FC = () => {
             />
             <Input
               label="Ano Inicio"
-              name="anoInicio"
-              errors={errors.anoInicio}
-              touched={touched.anoInicio}
+              name="anoinicio"
+              errors={errors.anoinicio}
+              touched={touched.anoinicio}
             />
             <Input
               label="Ano Fim"
-              name="anoFim"
-              errors={errors.anoFim}
-              touched={touched.anoFim}
+              name="anofim"
+              errors={errors.anofim}
+              touched={touched.anofim}
             />
 
             <Select

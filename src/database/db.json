@@ -21,88 +21,88 @@
       "titulo": "Rodobens Caminhões (Caruaru-PE)",
       "descricao": "Cargo: Auxiliar Administrativo",
       "tipo": "profissional",
-      "anoInicio": "2011",
-      "anoFim": "2012"
+      "anoinicio": "2011",
+      "anofim": "2012"
     },
     {
       "id": 3,
       "titulo": "Capital Cap (Brasília-DF)",
       "descricao": "Cargo: Auxiliar Administrativo",
       "tipo": "profissional",
-      "anoInicio": "2012",
-      "anoFim": "2014"
+      "anoinicio": "2012",
+      "anofim": "2014"
     },
     {
       "id": 4,
       "titulo": "Trimania (Itajaí-SC)",
       "descricao": "Cargo: Assistente Administrativo Operacional",
       "tipo": "profissional",
-      "anoInicio": "2014",
-      "anoFim": "2017"
+      "anoinicio": "2014",
+      "anofim": "2017"
     },
     {
       "id": 5,
       "titulo": "Unimed Caruaru (Caruaru-PE)",
       "descricao": "Cargo: Assistente Operacional / Setor: Contas de Intercâmbio",
       "tipo": "profissional",
-      "anoInicio": "2017",
-      "anoFim": "2020"
+      "anoinicio": "2017",
+      "anofim": "2020"
     },
     {
       "id": 6,
       "titulo": "Unimed Caruaru",
       "descricao": "Cargo: Técnico Administrativo / Setor: Núcleo de Cooperados",
       "tipo": "profissional",
-      "anoInicio": "2020",
-      "anoFim": "2021"
+      "anoinicio": "2020",
+      "anofim": "2021"
     },
     {
       "id": 7,
       "titulo": "Unimed Caruaru",
       "descricao": "Cargo: Técnico Financeiro / Setor: Faturamento",
       "tipo": "profissional",
-      "anoInicio": "2021",
-      "anoFim": "2023"
+      "anoinicio": "2021",
+      "anofim": "2023"
     },
     {
       "id": 8,
       "titulo": "Unimed Caruaru",
       "descricao": "Cargo: Técnico Financeiro / Setor: Produção Médica",
       "tipo": "profissional",
-      "anoInicio": "2023",
-      "anoFim": "2023"
+      "anoinicio": "2023",
+      "anofim": "2023"
     },
     {
       "id": 9,
       "titulo": "Auxiliar Administrativo",
       "descricao": "Instituição: SENAC",
       "tipo": "academico",
-      "anoInicio": "2012",
-      "anoFim": "2012"
+      "anoinicio": "2012",
+      "anofim": "2012"
     },
     {
       "id": 10,
       "titulo": "Logística",
       "descricao": "Instituição: UNINTER",
       "tipo": "academico",
-      "anoInicio": "2013",
-      "anoFim": "2015"
+      "anoinicio": "2013",
+      "anofim": "2015"
     },
     {
       "id": 11,
       "titulo": "Gestão Financeira",
       "descricao": "Instituição: Unicesumar ",
       "tipo": "academico",
-      "anoInicio": "2018",
-      "anoFim": "2020"
+      "anoinicio": "2018",
+      "anofim": "2020"
     },
     {
       "id": 12,
       "titulo": "Pós-Graduação em Administração Financeira",
       "descricao": "Instituição: Unicesumar",
       "tipo": "academico",
-      "anoInicio": "2019",
-      "anoFim": "2021"
+      "anoinicio": "2019",
+      "anofim": "2021"
     }
   ],
   "portfolio": [
