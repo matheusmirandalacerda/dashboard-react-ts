@@ -67,9 +67,9 @@ const ListaPortfolio: React.FC = () => {
             <tbody>
                 {portfolios.map((portfolio, index) => (
                     <tr key={index}>
-                    <td>{portfolio.titulo}</td>
-                    <td><img src={portfolio.image} alt={portfolio.titulo} className={styles.image} /></td>
                     <td><a href={portfolio.link} target="_blank" rel="noreferrer">{portfolio.link}</a></td>
+                    <td><img src={portfolio.image} alt={portfolio.image} className={styles.image} /></td>
+                    <td>{portfolio.titulo}</td>
                     <td>
                             <button onClick={() => handleEdite(portfolio)}>Editar</button>
                             <button onClick={() => handleDelete(portfolio.id)}>Excluir</button>
